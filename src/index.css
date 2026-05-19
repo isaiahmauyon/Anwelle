@@ -58,8 +58,8 @@ body {
 }
 
 .logo-img {
-  width: 41px;
-  height: 41px;
+  width: 56px;
+  height: 56px;
   object-fit: cover;
 }
 
@@ -1376,6 +1376,7 @@ footer {
   .nav-btn-mobile {
     display: block;
     margin-top: 1rem;
+    width: fit-content;
   }
 
   .hero-section {

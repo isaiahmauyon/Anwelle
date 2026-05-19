@@ -80,7 +80,7 @@ function App() {
         <img src={imgLogo} alt="Anwelle Foundation" className="logo-img" />
         <nav className={`nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
           <a href="#who" className="nav-item" onClick={() => setIsMobileMenuOpen(false)}>ABOUT</a>
-          <a href="#focus" className="nav-item" onClick={() => setIsMobileMenuOpen(false)}>OUR WORK</a>
+          <a href="#focus" className="nav-item" onClick={() => setIsMobileMenuOpen(false)}>OUR IMPACT</a>
           <a href="#where" className="nav-item" onClick={() => setIsMobileMenuOpen(false)}>WHERE WE WORK</a>
           <a href="#partner" className="nav-item" onClick={() => setIsMobileMenuOpen(false)}>PARTNER</a>
           <a href="#contact" className="nav-item" onClick={() => setIsMobileMenuOpen(false)}>CONTACT</a>
