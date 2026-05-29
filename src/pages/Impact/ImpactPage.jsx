@@ -26,7 +26,6 @@ const ACTIVITIES_DATA = [
       "The clean up campaign also included environmental awareness workshops, sharing knowledge on sustainable waste disposal methods, proper hand hygiene, and community-wide sanitation protocols.",
       "Sanitation tools and high-quality bins were distributed to key collection points to support long-term waste management and ongoing voluntary clean up efforts across Jirapa."
     ],
-    tags: ["Sanitation", "Clean Up", "Environment", "Volunteer", "Community Health"],
     images: [
       "https://lh3.googleusercontent.com/d/1ZPg3DD8XQj3OLCF40Of6XAZu6geEWjcK",
       "https://lh3.googleusercontent.com/d/1g0DLk_8l5eNmsiOv--5WhXfOcwDYN10r",
@@ -49,7 +48,7 @@ const ACTIVITIES_DATA = [
   {
     id: 2,
     category: "Leadership",
-    title: "Community Leadership & Inspiration — Tiekan Joseph's 525km Cycling Journey",
+    title: "Community Leadership & Inspiration",
     paragraphs: [
       "We celebrated the extraordinary resilience and community leadership of Tiekan Joseph (popularly known as 'Hero'), a local teacher from Jirapa Nambeg, who completed an epic 525-kilometre bicycle ride from Yeji to Jirapa.",
       "Over four grueling days on the road, Joseph undertook this voluntary marathon to champion community development, raise awareness for the annual Bong-ngo Festival, and promote healthy, active lifestyles among local youth.",
@@ -68,7 +67,7 @@ const ACTIVITIES_DATA = [
   {
     id: 3,
     category: "Livelihood",
-    title: "Women's Economic Empowerment — Intensive Sewing & Business Bootcamp",
+    title: "Women's Economic Empowerment",
     paragraphs: [
       "We organized a comprehensive 5-day intensive business management and vocational training bootcamp, empowering 45 local women and apprentices with practical skills for self-reliance.",
       "To support their transition into independent business owners, the foundation distributed professional sewing machines and start-up toolkits, equipping them with the resources needed to launch successful tailoring enterprises in Jirapa.",
@@ -89,7 +88,7 @@ const ACTIVITIES_DATA = [
   {
     id: 4,
     category: "Empowerment",
-    title: "Grand Durbar Recognition — Awarding the Motorbike to Jirapa's Cycling Hero",
+    title: "Grand Durbar Recognition",
     paragraphs: [
       "During a grand durbar at the Bong-ngo Festival celebrations, the Anwelle Foundation officially honored Tiekan Joseph for his inspiring 525km bicycle ride by presenting him with a brand-new Apsonic AP125-30 motorbike.",
       "Presented by our CEO, Frank Anwelle, alongside the Paramount Chief of Jirapa, Naa Dinaa Donglabong Ganaa, and key local leaders, this award stands as a testament to the foundation's commitment to recognizing individual dedication.",

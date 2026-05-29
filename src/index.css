@@ -59,6 +59,7 @@ body {
   border: none;
   background: transparent;
   width: fit-content;
+  text-decoration: none;
 }
 
 .btn:hover {
