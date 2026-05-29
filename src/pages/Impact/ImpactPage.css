@@ -1,0 +1,17 @@
+/* Impact Page Main Layout Styles */
+
+.impact-page-wrapper {
+  background-color: var(--bg-cream);
+  min-height: 100vh;
+  padding-top: 84px;
+  /* Offset for absolute header */
+  font-family: var(--font-sans);
+  color: var(--text-dark);
+}
+
+/* Centered Grid Layout (No Sidebar) */
+.main-content-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 6% 100px;
+}

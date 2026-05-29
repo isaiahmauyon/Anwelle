@@ -1,0 +1,109 @@
+/* Focus Areas Styles */
+.focus-section {
+  background: var(--bg-cream);
+  padding: 120px max(6%, calc((100vw - 1280px) / 2));
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+}
+
+.focus-card {
+  background: var(--bg-white);
+  border: 1px solid rgba(30, 80, 30, 0.14);
+  border-radius: 14px;
+  padding: 2rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.focus-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(30, 80, 30, 0.1);
+}
+
+.focus-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.focus-icon img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.focus-icon.agri {
+  background: #EAF3DE;
+}
+
+.focus-icon.edu {
+  background: #EAF3DE;
+}
+
+.focus-icon.health {
+  background: #EAF3DE;
+}
+
+.focus-icon.live {
+  background: #EAF3DE;
+}
+
+.focus-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--primary-green);
+  margin-bottom: 0.6rem;
+}
+
+.focus-card>p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.focus-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-left: 0;
+}
+
+.focus-list li {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.focus-list li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--secondary-green);
+  flex-shrink: 0;
+}
+
+@media (max-width: 960px) {
+  .focus-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}

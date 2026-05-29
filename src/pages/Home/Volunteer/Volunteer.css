@@ -1,0 +1,68 @@
+/* Volunteer Styles */
+.volunteer-section {
+  background: var(--bg-white);
+  padding: 120px max(6%, calc((100vw - 1280px) / 2));
+}
+
+.volunteer-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.volunteer-text p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.85;
+  margin-bottom: 1.25rem;
+}
+
+.vol-areas-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 1.1rem;
+}
+
+.vol-areas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.vol-area {
+  background: var(--bg-white);
+  border: 1px solid rgba(30, 80, 30, 0.14);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  font-size: 0.85rem;
+  color: var(--primary-green);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.vol-area::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--secondary-green);
+  flex-shrink: 0;
+}
+
+@media (max-width: 960px) {
+  .volunteer-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .vol-areas {
+    grid-template-columns: 1fr;
+  }
+}
